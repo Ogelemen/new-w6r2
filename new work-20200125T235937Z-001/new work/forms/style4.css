@@ -1,0 +1,92 @@
+body{
+    background-color: #E5E5E5;
+}
+.container1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+#thisid{
+    font-size: 12px;
+    width: 76%;
+    margin-right: 70px;
+    height: 200px;
+    height: 50vh;
+}
+#float{
+    text-align: left;
+    width: 60%;
+    font-size: 14px;
+}
+.another{
+    background-color: #ffffff;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+}
+h2{
+    font-size: 15px;
+    text-align: left;
+}
+h1{
+    font-size: 20px;
+}
+#para{
+    float: right;
+    margin-right: 112px;
+}
+#para a{
+    color: #27AE60;
+}
+input, h2{
+    padding-top: 20px;
+}
+.bold{
+    font-weight: 500;
+    margin-right: 140px;
+}
+.form-control{
+    width: 75%;
+}
+span{
+    color: #27AE60;
+}
+.basic{
+    margin-top: 20px;
+    font-weight: 600;
+    width: 40%;
+}
+.mainn{
+    width: 77%;
+    padding: 10px 10px 10px 0px;
+    margin-left: -110px;
+}
+#impact{
+    margin-left: 150px;
+    margin-top: -30px;
+    padding-bottom: 20px;
+}
+#impact a{
+    color: #27AE60;
+    text-decoration: none;
+}
+@media (max-width:1016px) {
+    .another {
+        width: 70%;
+    }
+}
+@media (max-width:767px) {
+    .another {
+        width: 80%;
+    }
+    .btn-block {
+        width: 100%;
+    }
+    #impact {
+        margin: 0;
+        margin-top: 10px;
+        display: block;
+    }
+}

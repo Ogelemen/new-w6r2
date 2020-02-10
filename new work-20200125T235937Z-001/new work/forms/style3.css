@@ -1,0 +1,71 @@
+
+body{
+    background-color: #E5E5E5;
+}
+.container1{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.form{
+    font-size: 12px;
+    text-align: left;
+    height: 50vh;
+}
+#float{
+    text-align: left;
+    width: 60%;
+    font-size: 14px;
+}
+.another{
+    background-color: #ffffff;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+h2{
+    font-size: 15px;
+    text-align: left;
+}
+h1{
+    font-size: 20px;
+}
+#para{
+    float: right;
+    margin-right: 25%;
+}
+#para a{
+    color: #27AE60;
+}
+input, h2{
+    padding-top: 20px;
+}
+.bold{
+    font-weight: 500;
+    margin-right: 140px;
+}
+.form-control{
+    width: 75%;
+}
+span{
+    color: #27AE60;
+}
+.basic{
+    margin-top: 20px;
+    font-weight: 600;
+    width: 50%;
+}
+#thisid{
+    padding: 10px;
+    margin-left: -40px;
+    font-size: .8em;
+}
+@media (max-width: 425px) {
+    .another {
+        padding-left: 20px;
+    }
+    
+}

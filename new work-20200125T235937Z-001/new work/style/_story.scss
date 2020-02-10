@@ -1,0 +1,40 @@
+.story-sec {
+    height: 80vh;
+    width: 100%;
+    background: #C4C4C4;
+    margin: 20px 0;
+    position: relative;
+    margin-bottom: 190px;
+    .sflex {
+        background: #fff;
+        border-radius: 10px;
+        position: absolute;
+        bottom: -120px;
+        left: 17%;
+        width:70% ;
+        z-index: 111;
+        .sma {
+            @include flex(column);
+            justify-content: center;
+            align-items: center;
+        }
+        a, span {
+            font-size: .9em;
+            border-radius: 20px;
+            padding: 3px 8px;
+            margin: 5px;
+        }
+    }
+}
+.story-main {
+    padding: 130px 20px;
+}
+.story2 {
+    .flex1 {
+        width: 100%;
+        div {
+            margin: 10px;
+            width: 25%;
+        }
+    }
+}

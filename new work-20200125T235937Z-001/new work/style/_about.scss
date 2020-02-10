@@ -1,0 +1,92 @@
+.navnav.nav-link {
+  background: #27AE60;
+  color: white !important;
+}
+.mt-5 {
+  h3 {
+    color: #27AE60;
+  }
+}
+.join {
+  background: #27AE60;color: white;width: 12em;
+}
+
+.progress-bar {
+  width: 53%;background: #27AE60;border-radius: 20px;
+}
+a.v {
+  color: #333 !important;
+  .pl-2 {
+    width: 1.9em;
+  }
+}
+.disc {
+  background: #DFF3E7;color: #27AE60;float: right;margin-right: 35%;
+}
+.edu {
+  background: #27AE60;color: white;border-radius:28px;padding:0 35px;
+}
+span {
+  font-size: .9em;text-align: right;padding: 10px;
+}
+body {
+    position: relative;
+}
+.bave {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+}
+.active {
+    color: #27AE60 !important;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 35%;
+      width: 30%;
+      height: 2px;
+      background: #27AE60;
+    }
+}
+.abt1 {
+  padding: 80px 0;
+  margin: 0 140px;
+}
+
+@media (max-width: 768px) {
+  .abt1 {
+    margin: 0 40px;
+  }
+  .card {
+    margin-right: 0 !important;
+    margin: 14px 5px !important;
+    width: 100%;
+
+  }
+  .reduce {
+    font-size: 30px !important;
+    text-align: center;
+  }
+  .active::after {
+    background: white;
+  }
+  .section2 {
+    .c-row {
+      justify-content: center;
+    }
+  }
+  .disc {
+    margin-right: 4px auto;
+    
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {
+   a.disc {
+    float: left !important;
+    margin-left: 10px;
+  }
+}

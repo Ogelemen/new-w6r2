@@ -1,0 +1,85 @@
+  body{
+    background-color: #E5E5E5;
+  }
+  .container1{
+        text-align: left;
+        margin-top: 130px;
+        margin-bottom: 40px;
+    }
+    .navlog {
+        background: #27AE60 !important;
+        color: white !important;
+        width: 100% !important;
+    }
+    .donate{
+        text-align: center;
+        padding-bottom: 30px;
+        
+    }
+    .another{
+        background-color: #ffffff;
+        width: 50%;
+        margin: auto;
+        padding: 20px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+    }
+    h4{
+        font-size: 14px;
+        padding: 4px;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 20px;
+        font-weight: 900;
+    } 
+    .basic{
+        margin-top: 20px;
+        font-weight: 600;
+        width: 40%;
+    }
+    .form-control{
+        font-size: 12px;
+        width: 76%;
+        text-align: left;
+        margin-right: 150px;
+        text-align: left;
+    }
+    #float{
+        text-align: left;
+        width: 87%;
+        font-size: 14px;
+    }
+    .mastercard{
+        float: right;
+        margin-top: 5px;
+        margin-right: 25%;
+    }
+    .btn-block {
+        margin-bottom: 10px;
+    }
+    a#thisid {
+        padding: 10px;
+        color: #000;
+    }
+    @media (max-width:768px) {
+        .container {
+            padding-bottom: 20px;
+        }
+        .another {
+            width: 70%;
+        }
+    }
+    @media (max-width:425px) {
+        .another {
+            width: 80%;
+            padding-left: 20px;
+        }
+        .donate {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .btn-block {
+            width: 75%;
+        }
+    }

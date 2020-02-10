@@ -1,0 +1,26 @@
+body {
+  position: relative;
+}
+
+.bave {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+}
+
+.active {
+  color: #27AE60;
+}
+
+.abt1 {
+  padding: 80px 0;
+  margin: 0 140px;
+}
+
+@media (max-width: 676px) {
+  a.disc {
+    float: left;
+  }
+}
+/*# sourceMappingURL=about.css.map */

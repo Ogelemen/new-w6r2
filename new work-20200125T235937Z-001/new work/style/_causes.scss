@@ -1,0 +1,25 @@
+.causes {
+    @include flex(row);
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+}
+.header-cos {
+    background: #fff;
+    z-index: 111;
+}
+.cause-mis {
+    padding: 120px 20px;
+    h3 {
+        color: $success;
+    }
+}
+@media (min-width:425px) {
+    .cause-mis {
+        height: 100vh;
+        padding: 20px;
+        padding-top: 80px;
+    }
+}
